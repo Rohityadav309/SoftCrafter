@@ -78,6 +78,10 @@ const Visualizer = ({ algorithm, speed, size, color }) => {
     animateSorting(steps);
   };
 
+
+
+
+  
   const handleSort = () => {
     if (algorithm === 'Bubble Sort') {
       bubbleSort();
